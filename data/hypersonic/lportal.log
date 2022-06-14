@@ -1,0 +1,4 @@
+/*C617*/SET SCHEMA PUBLIC
+DELETE FROM RELEASE_ WHERE RELEASEID=1
+INSERT INTO RELEASE_ VALUES(6,1,'2019-11-11 22:34:20.000000','2022-06-14 07:48:56.358000','portal','5.1.0',7201,'2022-06-14 07:48:56.336000','1',NULL,'You take the blue pill, the story ends, you wake up in your bed and believe whatever you want to believe. You take the red pill, you stay in Wonderland, and I show you how deep the rabbit hole goes.')
+COMMIT
