@@ -1,0 +1,25 @@
+2022-06-14 07:47:46.873 INFO  [main][PortalContextLoaderListener:139] JVM arguments: -Dcatalina.base=C:/Users/hp/Downloads/liferay-ce-portal-7.2.1-ga2/tomcat-9.0.17 -Dcatalina.home=C:/Users/hp/Downloads/liferay-ce-portal-7.2.1-ga2/tomcat-9.0.17 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Users/hp/Downloads/liferay-ce-portal-7.2.1-ga2/tomcat-9.0.17/endorsed -Djava.io.tmpdir=C:/Users/hp/Downloads/liferay-ce-portal-7.2.1-ga2/tomcat-9.0.17/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Users/hp/Downloads/liferay-ce-portal-7.2.1-ga2/tomcat-9.0.17/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m
+2022-06-14 07:48:00.694 WARN  [main][DialectDetector:99] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+2022-06-14 07:48:00.695 INFO  [main][DialectDetector:159] Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.3
+2022-06-14 07:48:07.318 INFO  [main][ModuleFrameworkImpl:1468] Starting initial bundles
+2022-06-14 07:48:11.220 INFO  [main][ModuleFrameworkImpl:1757] Started initial bundles
+2022-06-14 07:48:11.221 INFO  [main][ModuleFrameworkImpl:1810] Starting dynamic bundles
+2022-06-14 07:48:29.429 INFO  [main][ModuleFrameworkImpl:1877] Started dynamic bundles
+2022-06-14 07:48:29.431 INFO  [main][ModuleFrameworkImpl:408] Navigate to Control Panel > Configuration > Gogo Shell and enter "lb" to see all bundles
+2022-06-14 07:48:35.760 WARN  [Elasticsearch initialization thread][EmbeddedElasticsearchConnection:288] Liferay is configured to use embedded Elasticsearch as its search engine. Do NOT use embedded Elasticsearch in production. Embedded Elasticsearch is useful for development and demonstration purposes. Refer to the documentation for details on the limitations of embedded Elasticsearch. Remote Elasticsearch connections can be configured in the Control Panel.
+2022-06-14 07:48:55.390 INFO  [main][StartupHelper:75] There are no patches installed
+2022-06-14 07:48:57.447 INFO  [main][AutoDeployDir:193] Auto deploy scanner started for C:\Users\hp\Downloads\liferay-ce-portal-7.2.1-ga2\deploy
+2022-06-14 07:49:05.445 INFO  [main][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-06-14 07:49:05.798 INFO  [main][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-06-14 07:49:06.145 INFO  [main][ThemeHotDeployListener:108] 1 theme for porygon-theme is available for use
+2022-06-14 07:49:06.414 INFO  [main][ThemeHotDeployListener:108] 1 theme for fjord-theme is available for use
+2022-06-14 07:49:06.722 INFO  [main][ThemeHotDeployListener:108] 1 theme for westeros-bank-theme is available for use
+2022-06-14 07:49:13.153 INFO  [main][SystemCheckOSGiCommands:55] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-06-14 07:49:21.482 INFO  [main][SystemCheckOSGiCommands:67] Running system check
+2022-06-14 07:49:21.483 INFO  [main][SystemCheckOSGiCommands:98] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-06-14 07:49:21.484 INFO  [main][SystemCheckOSGiCommands:114] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-06-14 07:49:23.564 INFO  [main][SystemCheckOSGiCommands:126] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-06-14 07:49:23.566 INFO  [main][SystemCheckOSGiCommands:114] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-06-14 07:49:42.241 INFO  [main][SystemCheckOSGiCommands:126] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-06-14 07:49:42.242 INFO  [main][SystemCheckOSGiCommands:114] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-06-14 07:49:42.246 INFO  [main][SystemCheckOSGiCommands:126] Spring Extender Unavailable Component Checker check result: No issues were found.
